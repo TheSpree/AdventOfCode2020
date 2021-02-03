@@ -1,0 +1,4 @@
+C:\Users\olivi\AppData\Local\JetBrains\CLion2020.3\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/c++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/olivi/Documents/ING2/CPP/advent_learn
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/olivi/Documents/ING2/CPP/advent_learn/cmake-build-debug

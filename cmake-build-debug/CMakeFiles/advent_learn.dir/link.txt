@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/advent_learn.dir/main.cpp.o CMakeFiles/advent_learn.dir/day7.cpp.o  -o advent_learn.exe -Wl,--out-implib,libadvent_learn.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

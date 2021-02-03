@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+iostream
+-
+vector
+-
+fstream
+-
+algorithm
+-
+sstream
+-
+regex
+-
+bits/stdc++.h
+-
+
+/cygdrive/c/Users/olivi/Documents/ING2/CPP/advent_learn/main.cpp
+head.h
+/cygdrive/c/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+
