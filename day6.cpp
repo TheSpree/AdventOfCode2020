@@ -4,7 +4,7 @@
 #include "head.h"
 
 void day6(){
-    ifstream MyReadFile("./day6input");
+    ifstream MyReadFile("../inputs/day6input");
     string text;
     vector<vector<char>> groups{{}};
     vector<pair<int, vector<char>>> groups2{{}};

@@ -3,4 +3,4 @@ project(advent_learn)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(advent_learn main.cpp day7.cpp)
+add_executable(advent_learn main.cpp)

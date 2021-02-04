@@ -7,7 +7,7 @@ void day2(){
     int valid = 0;
     int valid_part2 = 0;
     string s;
-    ifstream input("day2Input");
+    ifstream input("../inputs/day2Input");
     while(getline(input, s)){
         int count = 0;
         string firstHalf = s.substr(0, s.find(':'));

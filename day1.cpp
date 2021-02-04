@@ -5,7 +5,14 @@
 #include "head.h"
 
 void day1(){
+    ifstream MyReadFile("../inputs/day1input");
+    string text;
     vector<int> list({});
+    while(getline(MyReadFile, text)){
+        text.erase(remove(text.begin(), text.end(), '\r'), text.end());
+        text.erase(remove(text.begin(), text.end(), '\n'), text.end());
+        list.push_back(text.parse)
+    }
     for(auto it : list){
         for(auto it2 : list){
             if(it + it2 == 2020){

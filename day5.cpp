@@ -4,7 +4,7 @@
 #include "head.h"
 
 void day5(){
-    ifstream MyReadFile("./day5input");
+    ifstream MyReadFile("../inputs/day5input");
     string text;
     vector<string> boardingPasses;
     vector<int> seatsid;

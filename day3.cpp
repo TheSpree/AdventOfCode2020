@@ -7,7 +7,7 @@
 void day3(){
     vector<string> map;
     string text;
-    ifstream MyReadFile("./day3input.txt");
+    ifstream MyReadFile("../inputs/day3input.txt");
     while(getline (MyReadFile, text)){
         map.push_back(text);
     }

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
 iostream
 -
 vector
@@ -19,10 +19,10 @@ sstream
 -
 regex
 -
-bits/stdc++.h
--
 
-/cygdrive/c/Users/olivi/Documents/ING2/CPP/advent_learn/main.cpp
+C:/Users/olivi/Documents/ING2/CPP/advent_learn/main.cpp
+utility
+-
 head.h
-/cygdrive/c/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
 
