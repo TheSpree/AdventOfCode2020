@@ -1,7 +1,7 @@
 //
 // Created by Olivier on 02/02/2021.
 //
-#include "head.h"
+#include "../head.h"
 
 void day2(){
     int valid = 0;

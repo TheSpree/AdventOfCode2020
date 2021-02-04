@@ -1,7 +1,7 @@
 //
 // Created by Olivier on 03/02/2021.
 //
-#include "head.h"
+#include "../head.h"
 
 void day7(){
     ifstream MyReadFile("../inputs/day7input");

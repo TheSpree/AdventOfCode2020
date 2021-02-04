@@ -2,7 +2,7 @@
 // Created by Olivier on 04/02/2021.
 //
 
-#include "head.h"
+#include "../head.h"
 using namespace std;
 
 struct Instruction{
