@@ -142,33 +142,6 @@ advent_learn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\advent_learn.dir\build.make CMakeFiles/advent_learn.dir/build
 .PHONY : advent_learn/fast
 
-day11.obj: day11.cpp.obj
-
-.PHONY : day11.obj
-
-# target to build an object file
-day11.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\advent_learn.dir\build.make CMakeFiles/advent_learn.dir/day11.cpp.obj
-.PHONY : day11.cpp.obj
-
-day11.i: day11.cpp.i
-
-.PHONY : day11.i
-
-# target to preprocess a source file
-day11.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\advent_learn.dir\build.make CMakeFiles/advent_learn.dir/day11.cpp.i
-.PHONY : day11.cpp.i
-
-day11.s: day11.cpp.s
-
-.PHONY : day11.s
-
-# target to generate assembly for a file
-day11.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\advent_learn.dir\build.make CMakeFiles/advent_learn.dir/day11.cpp.s
-.PHONY : day11.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -205,9 +178,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... advent_learn
-	@echo ... day11.obj
-	@echo ... day11.i
-	@echo ... day11.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

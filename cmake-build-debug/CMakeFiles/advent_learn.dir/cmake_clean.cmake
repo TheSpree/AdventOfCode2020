@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/advent_learn.dir/day11.cpp.obj"
   "CMakeFiles/advent_learn.dir/main.cpp.obj"
   "advent_learn.exe"
   "advent_learn.exe.manifest"

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/olivi/Documents/ING2/CPP/advent_learn/day12.cpp
+head.h
+C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+
 C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
 iostream
 -
@@ -19,8 +23,12 @@ sstream
 -
 regex
 -
+stdlib.h
+-
 
 C:/Users/olivi/Documents/ING2/CPP/advent_learn/main.cpp
 head.h
 C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+day12.cpp
+C:/Users/olivi/Documents/ING2/CPP/advent_learn/day12.cpp
 
