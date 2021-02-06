@@ -2,12 +2,12 @@
 
 using namespace std;
 
-void day14();
+void day15();
 
 int main() {
-    day14();
+    day15();
 }
 
-void day14(){
-
+void day15(){
+    //Inc.
 }

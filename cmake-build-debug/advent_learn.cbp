@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/olivi/Documents/ING2/CPP/advent_learn/day13.cpp">
-			<Option target="advent_learn"/>
-		</Unit>
 		<Unit filename="C:/Users/olivi/Documents/ING2/CPP/advent_learn/main.cpp">
 			<Option target="advent_learn"/>
 		</Unit>

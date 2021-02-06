@@ -19,7 +19,9 @@ sstream
 -
 regex
 -
-stdlib.h
+cstdlib
+-
+cmath
 -
 
 C:/Users/olivi/Documents/ING2/CPP/advent_learn/main.cpp

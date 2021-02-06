@@ -11,10 +11,17 @@
 #include <algorithm>
 #include <sstream>
 #include <regex>
-#include <stdlib.h>
+#include <cstdlib>
+#include <cmath>
 
 using namespace std;
 
-
+template<typename T>
+void printVector(const vector<T> & v){
+    for(auto const & e : v){
+        cout << e;
+    }
+    cout << endl;
+}
 
 #endif //ADVENT_LEARN_HEAD_H
