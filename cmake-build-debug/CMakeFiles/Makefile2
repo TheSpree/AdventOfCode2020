@@ -93,12 +93,12 @@ clean: CMakeFiles/advent_learn.dir/clean
 CMakeFiles/advent_learn.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\advent_learn.dir\build.make CMakeFiles/advent_learn.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\advent_learn.dir\build.make CMakeFiles/advent_learn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\olivi\Documents\ING2\CPP\advent_learn\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target advent_learn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\olivi\Documents\ING2\CPP\advent_learn\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target advent_learn"
 .PHONY : CMakeFiles/advent_learn.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/advent_learn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\olivi\Documents\ING2\CPP\advent_learn\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\olivi\Documents\ING2\CPP\advent_learn\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/advent_learn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\olivi\Documents\ING2\CPP\advent_learn\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/advent_learn.dir/rule
