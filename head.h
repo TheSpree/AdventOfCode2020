@@ -18,10 +18,27 @@ using namespace std;
 
 template<typename T>
 void printVector(const vector<T> & v){
-    for(auto const & e : v){
-        cout << e;
+    if (v.size()>=1){
+        cout << v.at(0) ;
+        for(int i = 1; i < v.size(); ++i){
+            cout << ", " << v.at(i);
+        }
+        cout << endl;
+    }else{
+        cout << "Vector is empty" <<endl;
     }
-    cout << endl;
+
 }
+
+vector<string> split(string text, const string & separator){
+    vector<string> splitted;
+    while(text.find(separator) != string::npos){
+        splitted.push_back(text.substr(0, text.find(separator)));
+        text.erase(0, text.find(separator)+separator.size());
+    }
+    splitted.push_back(text);
+    return splitted;
+}
+
 
 #endif //ADVENT_LEARN_HEAD_H

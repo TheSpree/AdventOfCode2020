@@ -1,13 +1,12 @@
 #include "head.h"
 
-using namespace std;
-
-void day15();
+void day16();
 
 int main() {
-    day15();
+    day16();
 }
 
-void day15(){
-    //Inc.
+void day16(){
+
 }
+
