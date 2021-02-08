@@ -1,7 +1,7 @@
 //
 // Created by Olivier on 07/02/2021.
 
-#include "head.h"
+#include "../head.h"
 
 void day15(){
     ifstream MyReadFile("../inputs/day15input");
@@ -35,4 +35,5 @@ void day15(){
         }
     }
     cout << lastSpoken.first <<endl;
+    MyReadFile.close();
 }

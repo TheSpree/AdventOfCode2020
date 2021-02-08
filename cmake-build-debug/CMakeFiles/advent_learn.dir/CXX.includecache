@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/olivi/Documents/ING2/CPP/advent_learn/days_11_to_20/day17.cpp
+../head.h
+C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+
 C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
 iostream
 -
@@ -23,8 +27,10 @@ cstdlib
 -
 cmath
 -
+cstdarg
+-
 
 C:/Users/olivi/Documents/ING2/CPP/advent_learn/main.cpp
-head.h
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+days_11_to_20/day17.cpp
+C:/Users/olivi/Documents/ING2/CPP/advent_learn/days_11_to_20/day17.cpp
 

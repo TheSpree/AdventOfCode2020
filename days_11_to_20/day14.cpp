@@ -2,7 +2,7 @@
 // Created by Olivier on 07/02/2021.
 //
 
-#include "head.h"
+#include "../head.h"
 
 void day14();
 vector<int> convertTo36BitsBinary(unsigned long long int convertMe);

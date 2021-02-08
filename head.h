@@ -13,6 +13,7 @@
 #include <regex>
 #include <cstdlib>
 #include <cmath>
+#include <cstdarg>
 
 using namespace std;
 
@@ -27,7 +28,6 @@ void printVector(const vector<T> & v){
     }else{
         cout << "Vector is empty" <<endl;
     }
-
 }
 
 vector<string> split(string text, const string & separator){
@@ -38,6 +38,32 @@ vector<string> split(string text, const string & separator){
     }
     splitted.push_back(text);
     return splitted;
+}
+
+vector<string> extractPattern(string text, const vector<string> & pattern){
+    vector<string> extractedString{};
+    bool patternMatched = true;
+    for (int i = 0; i < pattern.size()-1 && patternMatched; ++i) {
+        if(text.find(pattern.at(i+1), text.find(pattern.at(i))) == string::npos){
+            patternMatched = false;
+        }
+    }
+    if(!patternMatched){
+        cout << "Pattern not matched." << endl;
+        return extractedString;
+    }else{
+        for(const string & p : pattern){
+            string extracted = text.substr(0, text.find(p));
+            if (!extracted.empty()){
+                extractedString.push_back(extracted);
+            }
+            text.erase(0, (text.find(p)+p.size()));
+        }
+        if (!text.empty()){
+            extractedString.push_back(text);
+        }
+    }
+    return extractedString;
 }
 
 

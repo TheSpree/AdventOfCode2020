@@ -1,12 +1,6 @@
-#include "head.h"
-
-void day16();
+#include "days_11_to_20/day18.cpp"
 
 int main() {
-    day16();
-}
-
-void day16(){
-
+    return day18("../inputs/day18input");
 }
 

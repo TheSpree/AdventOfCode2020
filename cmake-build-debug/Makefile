@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\olivi\Documents\ING2\CPP\advent_learn\cmake-build-de
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"G:\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,28 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	"G:\CLion 2020.3.1\bin\cmake\win\bin\ctest.exe" --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"G:\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -128,6 +139,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named tester
+
+# Build rule for target.
+tester: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tester
+.PHONY : tester
+
+# fast build rule for target.
+tester/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/build
+.PHONY : tester/fast
 
 #=============================================================================
 # Target rules for targets named advent_learn
@@ -169,6 +193,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\advent_learn.dir\build.make CMakeFiles/advent_learn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/tests.obj: test/tests.cpp.obj
+
+.PHONY : test/tests.obj
+
+# target to build an object file
+test/tests.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/test/tests.cpp.obj
+.PHONY : test/tests.cpp.obj
+
+test/tests.i: test/tests.cpp.i
+
+.PHONY : test/tests.i
+
+# target to preprocess a source file
+test/tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/test/tests.cpp.i
+.PHONY : test/tests.cpp.i
+
+test/tests.s: test/tests.cpp.s
+
+.PHONY : test/tests.s
+
+# target to generate assembly for a file
+test/tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tester.dir\build.make CMakeFiles/tester.dir/test/tests.cpp.s
+.PHONY : test/tests.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -177,10 +228,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... test
 	@echo ... advent_learn
+	@echo ... tester
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... test/tests.obj
+	@echo ... test/tests.i
+	@echo ... test/tests.s
 .PHONY : help
 
 
