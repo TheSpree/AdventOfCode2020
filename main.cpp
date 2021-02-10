@@ -1,6 +1,5 @@
-#include "days_11_to_20/day18.cpp"
+#include "days_11_to_20/day19.cpp"
 
 int main() {
-    return day18("../inputs/day18input");
+    return day19("../inputs/day19test");
 }
-

@@ -40,6 +40,21 @@ vector<string> split(string text, const string & separator){
     return splitted;
 }
 
+vector<string> split(string text, const string & separator, const string & separator2){
+    vector<string> splitted;
+    while(text.find(separator) != string::npos && text.find(separator2) != string::npos){
+        if(text.find(separator) < text.find(separator2)){
+            splitted.push_back(text.substr(0, text.find(separator)));
+            text.erase(0, text.find(separator)+separator.size());
+        }else{
+            splitted.push_back(text.substr(0, text.find(separator2)));
+            text.erase(0, text.find(separator2)+separator2.size());
+        }
+    }
+    splitted.push_back(text);
+    return splitted;
+}
+
 vector<string> extractPattern(string text, const vector<string> & pattern){
     vector<string> extractedString{};
     bool patternMatched = true;
