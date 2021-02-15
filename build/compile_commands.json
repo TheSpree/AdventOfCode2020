@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/eisti/Documents/ING2CPP/AdventOfCode2020/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -g -std=gnu++1z -o CMakeFiles/advent_learn.dir/main.cpp.o -c /home/eisti/Documents/ING2CPP/AdventOfCode2020/main.cpp",
+  "file": "/home/eisti/Documents/ING2CPP/AdventOfCode2020/main.cpp"
+},
+{
+  "directory": "/home/eisti/Documents/ING2CPP/AdventOfCode2020/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -g -std=gnu++1z -o CMakeFiles/tester.dir/test/tests.cpp.o -c /home/eisti/Documents/ING2CPP/AdventOfCode2020/test/tests.cpp",
+  "file": "/home/eisti/Documents/ING2CPP/AdventOfCode2020/test/tests.cpp"
+}
+]

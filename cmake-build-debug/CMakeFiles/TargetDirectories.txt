@@ -1,5 +1,5 @@
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/cmake-build-debug/CMakeFiles/tester.dir
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/cmake-build-debug/CMakeFiles/advent_learn.dir
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/cmake-build-debug/CMakeFiles/test.dir
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/cmake-build-debug/CMakeFiles/advent_learn.dir
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/cmake-build-debug/CMakeFiles/tester.dir
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/cmake-build-debug/CMakeFiles/test.dir
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/cmake-build-debug/CMakeFiles/edit_cache.dir

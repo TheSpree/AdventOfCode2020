@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/days_11_to_20/day19.cpp
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/days_11_to_20/day19.cpp
 ../head.h
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/head.h
 
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/head.h
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/head.h
 iostream
 -
 vector
@@ -30,7 +30,7 @@ cmath
 cstdarg
 -
 
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/main.cpp
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/main.cpp
 days_11_to_20/day19.cpp
-C:/Users/olivi/Documents/ING2/CPP/advent_learn/days_11_to_20/day19.cpp
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/days_11_to_20/day19.cpp
 

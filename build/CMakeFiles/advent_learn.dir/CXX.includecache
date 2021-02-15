@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/days_11_to_20/day20.cpp
+../head.h
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/head.h
+
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/head.h
+iostream
+-
+vector
+-
+fstream
+-
+algorithm
+-
+sstream
+-
+regex
+-
+cstdlib
+-
+cmath
+-
+cstdarg
+-
+
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/main.cpp
+days_11_to_20/day20.cpp
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/days_11_to_20/day20.cpp
+

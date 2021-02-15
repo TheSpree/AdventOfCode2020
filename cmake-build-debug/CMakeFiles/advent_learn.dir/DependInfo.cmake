@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/olivi/Documents/ING2/CPP/advent_learn/main.cpp" "C:/Users/olivi/Documents/ING2/CPP/advent_learn/cmake-build-debug/CMakeFiles/advent_learn.dir/main.cpp.obj"
+  "/home/eisti/Documents/ING2CPP/AdventOfCode2020/main.cpp" "/home/eisti/Documents/ING2CPP/AdventOfCode2020/cmake-build-debug/CMakeFiles/advent_learn.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tester.dir/test/tests.cpp.o  -o tester 

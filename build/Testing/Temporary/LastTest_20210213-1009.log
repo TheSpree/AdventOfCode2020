@@ -1,0 +1,19 @@
+Start testing: Feb 13 11:09 CET
+----------------------------------------------------------
+1/1 Testing: Tester
+1/1 Test: Tester
+Command: "/home/eisti/Documents/ING2CPP/AdventOfCode2020/build/tester"
+Directory: /home/eisti/Documents/ING2CPP/AdventOfCode2020/build
+"Tester" start time: Feb 13 11:09 CET
+Output:
+----------------------------------------------------------
+/home/eisti/Documents/ING2CPP/AdventOfCode2020/build/tester: 1: /home/eisti/Documents/ING2CPP/AdventOfCode2020/build/tester: Syntax error: word unexpected (expecting ")")
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"Tester" end time: Feb 13 11:09 CET
+"Tester" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 13 11:09 CET
